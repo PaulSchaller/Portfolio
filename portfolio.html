@@ -2,59 +2,102 @@
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
-  <title>Portfolio | Your Name</title>
+  <title>Portfolio | Paul Schaller</title>
+
+  <!--linking my bootstrap and css style sheets-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/stylePortfolioPage.css">
   
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
   <header id="masthead">
     <div class="container">
-      <a href="index.html" id="logo">Paul Schaller</a>
+      <a href="portfolio.html" id="logo">Paul Schaller</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
   </header>
   <div id="main-container" class="container">
-    <section class="main-section">
+    <section class="main-section col-sm-8" id="main-section">
       <h1>Portfolio</h1>
-      <div class="work">
-        <a href="https://salty-mountain-44153.herokuapp.com/"><img src="assets/images/speedyGonzales.jpg" alt="speedy"></a>
-        <h3>Andale!</h3>
-      </div>
-      <div class="work">
-        <a href=" https://morning-basin-99252.herokuapp.com/"><img src="assets/images/burger.jpg" alt="burger"></a>
-        <h3>Eat-Da-Burger</h3>
-      </div>
-      <div class="work">
-        <a href="https://pacific-earth-62047.herokuapp.com/"><img src="assets/images/friends.jpg" alt="Friend Finder"></a>
-        <h3>Friend Finder</h3>
-      </div>
-      <div class="work">
+
+       <div class="work col-sm-4">
         <a href="https://paulschaller.github.io/week-4-game/"><img src="assets/images/gems.jpg" alt="Gems Game"></a>
         <h3>Gems Game</h3>
       </div>
-      <div class="work">
+      <div class="description col-sm-4">
+        <h3>Play a Gems Game</h3>
+      </div>
+
+      <div class="work col-sm-4">
         <a href="https://paulschaller.github.io/TrainSchedule/"><img src="assets/images/locomotive.jpg" alt="Train Schedule"></a>
         <h3>Train Schedule</h3>
       </div>
-      <div class="work">
+      <div class="description col-sm-4">
+        <h3>See a Train Schedule</h3>
+      </div>
+
+      <div class="work col-sm-4">
+        <a href=" https://morning-basin-99252.herokuapp.com/"><img src="assets/images/burger.jpg" alt="burger"></a>
+        <h3>Eat-Da-Burger</h3>
+      </div>
+      <div class="description col-sm-4">
+        <h3>Make Your Own Burger and Devour It</h3>
+      </div>
+
+      <div class="work col-sm-4">
+        <a href="https://salty-mountain-44153.herokuapp.com/"><img src="assets/images/speedyGonzales.jpg" alt="speedy"></a>
+        <h3>Andale!</h3>
+      </div>
+      <div class="description col-sm-4">
+        <h3>Organize Sporting Activities</h3>
+      </div>
+     
+      <div class="work col-sm-4">
+        <a href="https://pacific-earth-62047.herokuapp.com/"><img src="assets/images/friends.jpg" alt="Friend Finder"></a>
+        <h3>Friend Finder</h3>
+      </div>
+      <div class="description col-sm-4">
+        <h3>Take a Survey And Find a Friend Match</h3>
+      </div>
+      
+      <div class="work col-sm-4">
         <a href="https://paulschaller.github.io/Giphy-API-DisneyMovies/"><img src="assets/images/giphy.png" alt="Giphy"></a>
         <h3>Giphy</h3>
       </div>
+      <div class="description col-sm-4">
+        <h3>Find a Giphy for a Disney Movie</h3>
+      </div>
+
     </section>
-    <section class="sidebar">
-      <div id="connect">
-        <h2>Connect with Me</h2>
-        <a href="https://github.com/PaulSchaller"><img src="assets/images/github(1).png" class="social" alt="GitHub" /></a>
+
+    <section class="sidebar col-sm-4" id=sidebar-section> 
+    <div id="connect">   
+    <h2>Connect with Me</h2>
+        <a href="https://github.com/PaulSchaller"><img src="assets/images/github (1).png" class="social" alt="GitHub" /></a>
         <a href="https://www.linkedin.com/in/paulschaller/"><img src="assets/images/LinkedIn.jpg" class="social" alt="LinkedIn" /></a>
       </div>
     </section>
   </div>
-  <footer>
-    <div class="container">
 
-      Copyright &copy; 2017 Paul Schaller
-    </div>
-  </footer>
+    <!--sticky footer-->
+  <div class="push"></div>
+
+
+  <!--my footer.--> 
+  <footer>
+    <div class="container" id="footerA">
+          Copyright &copy; 2017 Paul Schaller
+        </div>
+     </footer>
+
 </body>
 </html>
