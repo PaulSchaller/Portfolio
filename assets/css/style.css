@@ -111,6 +111,21 @@ h3,
 #main-container {
   padding-top: 130px;
 }
+#Skills {
+  color: red;
+  background-color: black;
+  text-align: center;
+}
+#Education {
+  color: black;
+  background-color: red;
+  text-align: center;
+}
+#WorkExperience {
+  color: black;
+  background-color: red;
+  text-align: center;
+}
 .main-section {
   float: left;
   width: 100%;
