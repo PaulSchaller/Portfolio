@@ -117,6 +117,10 @@ h3,
   background: #fff;
   border: 1px solid #ddd;
 }
+.main-section h1 {
+  background-color: red;
+  color: black;
+}
 /* portfolio page */
 .work {
   position: relative;

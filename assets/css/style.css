@@ -116,15 +116,25 @@ h3,
   background-color: black;
   text-align: center;
 }
+#Skills h2 {
+  padding-top: 20px;
+}
 #Education {
   color: black;
   background-color: red;
   text-align: center;
 }
-#WorkExperience {
+#Education h2 {
   color: black;
-  background-color: red;
+  padding-top: 20px
+}
+#WorkExperience {
+  color: red;
+  background-color: black;
   text-align: center;
+}
+#WorkExperience h2{
+  padding-top: 20px;
 }
 .main-section {
   float: left;
