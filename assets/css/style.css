@@ -128,12 +128,12 @@ h3,
   color: black;
   padding-top: 20px
 }
-#WorkExperience {
+#AppliedExperience {
   color: red;
   background-color: black;
   text-align: center;
 }
-#WorkExperience h2{
+#AppliedExperience h2{
   padding-top: 20px;
 }
 .main-section {
@@ -188,7 +188,7 @@ h3,
 }
 #footerA  {
   background-color: black;
-  color: gold;
+  color: red;
   font-size: 20px;
   text-align: center;
   font-weight: bold;
